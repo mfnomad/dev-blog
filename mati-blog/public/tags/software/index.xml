@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/software/</link>
+    <description>Recent content in Software on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Aug 2025 12:15:19 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/welcome/</link>
+      <pubDate>Wed, 20 Aug 2025 12:15:19 +0200</pubDate>
+      <guid>http://localhost:1313/posts/welcome/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-test&#34;&gt;This is a test&lt;/h1&gt;&#xA;&lt;h2 id=&#34;this-is-a-h2-test&#34;&gt;this is a h2 test&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>
