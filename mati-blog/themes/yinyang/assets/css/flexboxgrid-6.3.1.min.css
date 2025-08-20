@@ -153,7 +153,7 @@
 .col-xs-12 {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .col-xs-offset-0 {
@@ -319,7 +319,8 @@
     .col-sm-2 {
         -ms-flex-preferred-size: 16.66666667%;
         flex-basis: 16.66666667%;
-        max-width: 16.66666667%
+        max-width: 16.66666667%;
+        background-color: chartreuse; /* delet this */
     }
     .col-sm-3 {
         -ms-flex-preferred-size: 25%;
@@ -849,4 +850,95 @@
         -ms-flex-order: 1;
         order: 1
     }
+
+    /* Mati writes here *//* Mati writes here *//* Mati writes here *//* Mati writes here *//* Mati writes here */
+    .card{
+    width:min(100% - 24px, var(--container-w));
+    background: #040303;
+    border:1px solid var(--stroke);
+    border-radius:var(--radius);
+    padding:calc(var(--pad) + 2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    display:grid;
+    gap:var(--gap);
+
+  }
+
+  /* Top row: avatar + info */
+  .top{
+    display:grid;
+    grid-template-columns: 140px 1fr;   /* avatar width then info */
+    gap:var(--gap);
+    align-items:stretch;
+    width: 100%;
+    background-color: aquamarine;
+  }
+
+  .avatar{
+    border:1px solid var(--stroke);
+    border-radius: 10px;
+
+    overflow:hidden;
+    background:#f3f4f6;
+    aspect-ratio:1 / 1;
+    display:grid;
+    place-items:center;
+    background-color: blue;
+  }
+  .avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    background-color: #e60cc2;
+  }
+  .avatar .placeholder{
+    font-size:0.9rem;
+    color:var(--muted);
+  }
+
+  .info{
+    border:1px solid var(--stroke);
+    border-radius:10px;
+    padding:var(--pad);
+    display:grid;
+    gap:8px;
+    margin-left: 20px;
+    background-color: red;
+  }
+  .info h2{
+    margin:0;
+    font-size:1.1rem;
+  }
+  .info p{
+    margin:0;
+    color:var(--muted);
+    line-height:1.45;
+  }
+
+  /* Bottom rectangle */
+  .extra{
+    border:1px solid var(--stroke);
+    border-radius: 10px;
+    padding:var(--pad);
+    line-height:1.9;
+    color:var(--ink);
+    background-color: yellow;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    
+
+  }
+
+  /* Responsive tweak: stack on narrow screens */
+  @media (max-width: 520px){
+    .top{
+      grid-template-columns: 1fr; /* stack avatar above info */
+    }
+    .avatar{
+      max-width: 200px;
+      margin: 0 auto;
+    }
+  }
 }
+

@@ -3,8 +3,28 @@
 {{ partial "head.html" . }}
 
 <body>
+  
   <article class="posts">
     <div class="row">
+      <!-- Avatar picture and intro -->
+       <div class="card">
+    <div class="top">
+      <div class="avatar">
+       
+        <span class="placeholder">Profile</span>
+      </div>
+
+      <div class="info">
+        👋 Hey there! I'm <strong>Mateusz Frydryszak </strong> (Mati), an aspiring Machine Learning Engineer currently living in Stuttgart, Germany.
+        <span> m.a.frydryszak@gmail   / github / resume</span>
+      </div>
+    </div>
+
+    <div class="extra">
+      Here I write about software projects, my evolving interests, my and experiences in the world of technology and beyond
+    </div>
+  </div>  <!-- Avatar picture and intro END -->
+
       <div class="col-xs-12">
         {{ partial "header.html" . }}
         <div id="posts-list">

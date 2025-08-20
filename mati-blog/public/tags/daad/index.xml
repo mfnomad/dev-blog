@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>DAAD on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/daad/</link>
+    <description>Recent content in DAAD on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Aug 2025 12:30:41 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/daad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research Internship Indonesia</title>
       <link>http://localhost:1313/posts/research-internship-indonesia/</link>
       <pubDate>Wed, 20 Aug 2025 12:30:41 +0200</pubDate>
       <guid>http://localhost:1313/posts/research-internship-indonesia/</guid>
       <description>&lt;h1 id=&#34;so-im-in-indonesia-right-now-and-its-a-blast&#34;&gt;So I&amp;rsquo;m in Indonesia right now and it&amp;rsquo;s a blast&lt;/h1&gt;&#xA;&lt;h3 id=&#34;its-a-little-bit-absurd-actually&#34;&gt;it&amp;rsquo;s a little bit absurd actually&lt;/h3&gt;&#xA;&lt;h6 id=&#34;but-well-get-to-that-soon-enough&#34;&gt;but we&amp;rsquo;ll get to that soon enough&lt;/h6&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Malay people think they invented fried noodle, but actually it was the Indonesians&amp;rdquo; - Aqil&lt;/p&gt;&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/welcome/</link>
-      <pubDate>Wed, 20 Aug 2025 12:15:19 +0200</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
-      <description>&lt;h1 id=&#34;this-is-a-test&#34;&gt;This is a test&lt;/h1&gt;&#xA;&lt;h2 id=&#34;this-is-a-h2-test&#34;&gt;this is a h2 test&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>
